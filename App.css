@@ -1,0 +1,122 @@
+.homePageWrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.formWrapper {
+  /* box-shadow: 7px 7px 5px green; */
+  background: #282a36;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+  box-shadow: 3px 3px 5px red;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+}
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+.mainLabel {
+  margin-bottom: 10px;
+}
+.inputBox {
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  margin-bottom: 15px;
+  background: #eee;
+  font-size: 16px;
+  font-weight: bold;
+}
+.btn {
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.joinBTN {
+  background: #4aed88;
+  width: 100px;
+  margin-left: auto;
+}
+.joinBTN:hover {
+  background-color: #2b824c;
+}
+
+.createInfo {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.createNewBtn {
+  color: red;
+  text-decoration: none;
+  border-bottom: 1px solid yellow;
+  transition: all 0.3s ease-in-out;
+}
+.createNewBtn:hover {
+  color: yellowgreen;
+  border-bottom: 1px solid yellow;
+}
+.mainWrap {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  height: 100vh;
+}
+.aside {
+  background: #2b3256;
+  color: #fff;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.asideInner {
+  flex: 1;
+  width: 200px;
+}
+.clientsList {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.client {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+.logo {
+  border-bottom: 3px solid #fff;
+  padding-bottom: 5px;
+}
+.logoImage {
+  height: 85px;
+}
+
+.leaveBtn {
+  margin-top: 20px;
+  background-color: #4aed88;
+  font-weight: bold;
+  font-size: 18px;
+}
+.leaveBtn:hover {
+  background-color: #304638;
+  color: #fff;
+}
+.CodeMirror {
+  min-height: calc(100vh-20px);
+  font-size: 20px;
+  line-height: 1.6;
+  /* padding-top: 20px; */
+  background-color: #2b3256;
+}
